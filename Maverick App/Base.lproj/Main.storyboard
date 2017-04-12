@@ -286,6 +286,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="NewsPhoto38" width="640" height="640"/>
+        <image name="imgres" width="225" height="225"/>
         <image name="logo_darkbg" width="235" height="45"/>
         <image name="northwest-kansas-technical-college-a55d44e04cb2d8" width="200" height="200"/>
     </resources>
