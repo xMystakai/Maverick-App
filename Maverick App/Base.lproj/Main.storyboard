@@ -5,7 +5,7 @@
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -326,7 +326,9 @@
     </scenes>
     <resources>
         <image name="NT" width="500" height="500"/>
+        <image name="NewsPhoto38" width="640" height="640"/>
         <image name="NorthWestLogo" width="235" height="45"/>
+        <image name="imgres" width="225" height="225"/>
         <image name="maverickEmblem" width="690" height="661"/>
         <image name="menu" width="128" height="96"/>
     </resources>
