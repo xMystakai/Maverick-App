@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -220,7 +220,7 @@
                                                         <rect key="frame" x="0.0" y="28" width="612" height="153"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="83x-R3-lwT" id="QzE-1v-9K3">
-                                                            <rect key="frame" x="0.0" y="0.0" width="612" height="152"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="612" height="153"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
                                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vBD-Wd-Wqn">
@@ -326,7 +326,9 @@
     </scenes>
     <resources>
         <image name="NT" width="500" height="500"/>
+        <image name="NewsPhoto38" width="640" height="640"/>
         <image name="NorthWestLogo" width="235" height="45"/>
+        <image name="imgres" width="225" height="225"/>
         <image name="maverickEmblem" width="690" height="661"/>
         <image name="menu" width="128" height="96"/>
     </resources>
