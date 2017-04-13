@@ -149,7 +149,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="752" y="-63"/>
+            <point key="canvasLocation" x="961" y="-73"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Cp9-L4-8ag">
@@ -264,7 +264,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WOy-zd-2Pv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1416" y="-63"/>
+            <point key="canvasLocation" x="1695" y="-73"/>
         </scene>
         <!--Voice In-->
         <scene sceneID="W9W-gc-zWZ">
@@ -308,7 +308,7 @@
                                                         <rect key="frame" x="0.0" y="28" width="612" height="153"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="83x-R3-lwT" id="QzE-1v-9K3">
-                                                            <rect key="frame" x="0.0" y="0.0" width="612" height="153"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="612" height="152.5"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
                                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vBD-Wd-Wqn">
@@ -484,7 +484,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xxB-1Q-7P5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="752" y="-711"/>
+            <point key="canvasLocation" x="961" y="-711"/>
         </scene>
         <!--Voice In-->
         <scene sceneID="7Nv-bJ-SoU">
@@ -639,7 +639,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EAk-um-CoC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1415.625" y="-711.328125"/>
+            <point key="canvasLocation" x="1695" y="-711"/>
         </scene>
     </scenes>
     <resources>
