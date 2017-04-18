@@ -74,6 +74,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52EAF0191EA679C40049B985 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		52EAF01A1EA679D30049B985 /* IO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = IO;
+			sourceTree = "<group>";
+		};
+		52EAF01B1EA679DC0049B985 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Factories;
+			sourceTree = "<group>";
+		};
+		52EAF01C1EA679ED0049B985 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		52EAF01D1EA679F20049B985 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		9AD09C0A1E9E874500DF454B = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +132,11 @@
 		9AD09C151E9E874500DF454B /* Maverick App */ = {
 			isa = PBXGroup;
 			children = (
+				52EAF01D1EA679F20049B985 /* Controllers */,
+				52EAF01C1EA679ED0049B985 /* Views */,
+				52EAF01B1EA679DC0049B985 /* Factories */,
+				52EAF01A1EA679D30049B985 /* IO */,
+				52EAF0191EA679C40049B985 /* View Controllers */,
 				9AD09C161E9E874500DF454B /* AppDelegate.swift */,
 				9AD09C181E9E874500DF454B /* ViewController.swift */,
 				9AD09C1A1E9E874500DF454B /* Main.storyboard */,
@@ -514,6 +554,7 @@
 				9AD09C3D1E9E874500DF454B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AD09C3E1E9E874500DF454B /* Build configuration list for PBXNativeTarget "Maverick AppTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +563,7 @@
 				9AD09C401E9E874500DF454B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AD09C411E9E874500DF454B /* Build configuration list for PBXNativeTarget "Maverick AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +572,7 @@
 				9AD09C431E9E874500DF454B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
