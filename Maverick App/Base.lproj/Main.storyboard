@@ -273,6 +273,14 @@
                                     <segue destination="tNT-lN-wUZ" kind="show" id="9PK-YB-GGu"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nzy-8b-rKx">
+                                <rect key="frame" x="675" y="134" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="doH-7O-FEb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -473,6 +481,14 @@
                                 <state key="normal" image="red-arrow">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISq-yG-Zjz">
+                                <rect key="frame" x="585" y="50" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="f8T-4F-RNv" kind="show" id="dXf-1T-YJg"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -765,13 +781,21 @@
                                     <segue destination="3GX-bF-qVo" kind="show" id="6qi-Ko-Lp1"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fb5-ZU-fKz">
+                                <rect key="frame" x="598" y="84" width="34" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="VQR-n7-RVt" kind="show" id="9iy-kW-CTw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xxB-1Q-7P5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="980" y="-711"/>
+            <point key="canvasLocation" x="979.6875" y="-711.328125"/>
         </scene>
         <!--Voice Out-->
         <scene sceneID="7Nv-bJ-SoU">
@@ -934,6 +958,14 @@
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="ZFR-on-Kp7" kind="show" id="mni-xz-fkY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFb-Zg-qOx">
+                                <rect key="frame" x="178" y="46" width="34" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="hoQ-Oo-MEH" kind="show" id="9ln-AU-ZHm"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1119,6 +1151,14 @@
                                     <segue destination="Tdy-jG-OlB" kind="show" id="ZU4-7g-H3J"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4T-Dy-NL0">
+                                <rect key="frame" x="76" y="38" width="34" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="3GX-bF-qVo" kind="show" id="pQK-sb-4Ih"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1198,6 +1238,14 @@
                                 <state key="normal" title="Update Event">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxF-dQ-Kad">
+                                <rect key="frame" x="253" y="26" width="34" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="ZFR-on-Kp7" kind="show" id="wuZ-hJ-mTe"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -1357,6 +1405,14 @@
                                             <segue destination="hoQ-Oo-MEH" kind="show" id="MXq-YS-lf6"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lao-oN-hJr">
+                                        <rect key="frame" x="34" y="8" width="34" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Back"/>
+                                        <connections>
+                                            <segue destination="tNT-lN-wUZ" kind="show" id="0KP-PW-9bm"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.80784313730000001" green="0.066666666669999999" blue="0.14901960780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -1389,7 +1445,12 @@
         <image name="red-arrow" width="300" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="bWt-Co-fmv"/>
+        <segue reference="pQK-sb-4Ih"/>
+        <segue reference="wuZ-hJ-mTe"/>
         <segue reference="lQc-tT-TaX"/>
+        <segue reference="dXf-1T-YJg"/>
+        <segue reference="0KP-PW-9bm"/>
+        <segue reference="9iy-kW-CTw"/>
+        <segue reference="MXq-YS-lf6"/>
     </inferredMetricsTieBreakers>
 </document>
