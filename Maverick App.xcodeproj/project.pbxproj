@@ -11,6 +11,7 @@
 		9A9BDB311EA8FBB40048799C /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9BDB301EA8FBB40048799C /* SideMenu.swift */; };
 		9A9BDB331EA913FE0048799C /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9BDB321EA913FE0048799C /* LoginScreen.swift */; };
 		9A9BDB351EA916960048799C /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9BDB341EA916960048799C /* StartScreen.swift */; };
+		9A9BDB371EA935EF0048799C /* FeedBackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9BDB361EA935EF0048799C /* FeedBackVC.swift */; };
 		9AD09C171E9E874500DF454B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD09C161E9E874500DF454B /* AppDelegate.swift */; };
 		9AD09C191E9E874500DF454B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD09C181E9E874500DF454B /* ViewController.swift */; };
 		9AD09C1C1E9E874500DF454B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD09C1A1E9E874500DF454B /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		9A9BDB301EA8FBB40048799C /* SideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		9A9BDB321EA913FE0048799C /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		9A9BDB341EA916960048799C /* StartScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
+		9A9BDB361EA935EF0048799C /* FeedBackVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedBackVC.swift; sourceTree = "<group>"; };
 		9AD09C131E9E874500DF454B /* Maverick App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maverick App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD09C161E9E874500DF454B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AD09C181E9E874500DF454B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				9AD09C221E9E874500DF454B /* Info.plist */,
 				9A9BDB301EA8FBB40048799C /* SideMenu.swift */,
 				9A9BDB341EA916960048799C /* StartScreen.swift */,
+				9A9BDB361EA935EF0048799C /* FeedBackVC.swift */,
 			);
 			path = "Maverick App";
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				9A9BDB311EA8FBB40048799C /* SideMenu.swift in Sources */,
 				9A9BDB331EA913FE0048799C /* LoginScreen.swift in Sources */,
 				9A9BDB351EA916960048799C /* StartScreen.swift in Sources */,
+				9A9BDB371EA935EF0048799C /* FeedBackVC.swift in Sources */,
 				9AD09C191E9E874500DF454B /* ViewController.swift in Sources */,
 				9AD09C171E9E874500DF454B /* AppDelegate.swift in Sources */,
 				089F25F51EAA48CA00ABC830 /* EventViewController.swift in Sources */,
