@@ -153,6 +153,7 @@
 				9A9BDB321EA913FE0048799C /* LoginScreen.swift */,
 				9AD09C181E9E874500DF454B /* ViewController.swift */,
 				9AD09C1A1E9E874500DF454B /* Main.storyboard */,
+				089F25F41EAA48CA00ABC830 /* EventViewController.swift */,
 				9AD09C1D1E9E874500DF454B /* Assets.xcassets */,
 				9AD09C1F1E9E874500DF454B /* LaunchScreen.storyboard */,
 				9AD09C221E9E874500DF454B /* Info.plist */,
@@ -328,6 +329,7 @@
 				9A7A346A1EAA480C00794E8A /* Event.swift in Sources */,
 				9A7A346C1EAA4ED900794E8A /* Feedback.swift in Sources */,
 				9AD09C171E9E874500DF454B /* AppDelegate.swift in Sources */,
+				089F25F51EAA48CA00ABC830 /* EventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
