@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_7" orientation="portrait">
+    <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -21,20 +21,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="NT" translatesAutoresizingMaskIntoConstraints="NO" id="82a-kb-sa3">
-                                <rect key="frame" x="-43" y="170" width="474" height="319"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="maverickEmblem" translatesAutoresizingMaskIntoConstraints="NO" id="VvS-fh-a2Y">
+                                <rect key="frame" x="183" y="175" width="403" height="362"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="NorthWestTech" translatesAutoresizingMaskIntoConstraints="NO" id="ryB-Aw-md8">
-                                <rect key="frame" x="-1" y="0.0" width="376" height="150"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="c93f24a96e5238b8d716967c0a9766ce.600x" translatesAutoresizingMaskIntoConstraints="NO" id="avc-Yh-pmN">
-                                <rect key="frame" x="-57" y="246" width="470" height="501"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Primary Logo - Dark Backgrounds" translatesAutoresizingMaskIntoConstraints="NO" id="UNN-Se-9wn">
+                                <rect key="frame" x="91" y="583" width="586" height="198"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -43,8 +39,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="NT" width="474" height="319"/>
-        <image name="NorthWestTech" width="376" height="150"/>
-        <image name="c93f24a96e5238b8d716967c0a9766ce.600x" width="470" height="501"/>
+        <image name="Primary Logo - Dark Backgrounds" width="1080" height="199"/>
+        <image name="maverickEmblem" width="690" height="661"/>
     </resources>
 </document>
