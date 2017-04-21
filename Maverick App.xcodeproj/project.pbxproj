@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		089F25F51EAA48CA00ABC830 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089F25F41EAA48CA00ABC830 /* EventViewController.swift */; };
+		9A7A346A1EAA480C00794E8A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A34691EAA480C00794E8A /* Event.swift */; };
+		9A7A346C1EAA4ED900794E8A /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A346B1EAA4ED900794E8A /* Feedback.swift */; };
 		9A9BDB311EA8FBB40048799C /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9BDB301EA8FBB40048799C /* SideMenu.swift */; };
 		9A9BDB331EA913FE0048799C /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9BDB321EA913FE0048799C /* LoginScreen.swift */; };
 		9A9BDB351EA916960048799C /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9BDB341EA916960048799C /* StartScreen.swift */; };
@@ -39,7 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		089F25F41EAA48CA00ABC830 /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		9A7A34691EAA480C00794E8A /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		9A7A346B1EAA4ED900794E8A /* Feedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
 		9A9BDB301EA8FBB40048799C /* SideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		9A9BDB321EA913FE0048799C /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		9A9BDB341EA916960048799C /* StartScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
@@ -158,6 +160,8 @@
 				9A9BDB301EA8FBB40048799C /* SideMenu.swift */,
 				9A9BDB341EA916960048799C /* StartScreen.swift */,
 				9A9BDB361EA935EF0048799C /* FeedBackVC.swift */,
+				9A7A34691EAA480C00794E8A /* Event.swift */,
+				9A7A346B1EAA4ED900794E8A /* Feedback.swift */,
 			);
 			path = "Maverick App";
 			sourceTree = "<group>";
@@ -322,6 +326,8 @@
 				9A9BDB351EA916960048799C /* StartScreen.swift in Sources */,
 				9A9BDB371EA935EF0048799C /* FeedBackVC.swift in Sources */,
 				9AD09C191E9E874500DF454B /* ViewController.swift in Sources */,
+				9A7A346A1EAA480C00794E8A /* Event.swift in Sources */,
+				9A7A346C1EAA4ED900794E8A /* Feedback.swift in Sources */,
 				9AD09C171E9E874500DF454B /* AppDelegate.swift in Sources */,
 				089F25F51EAA48CA00ABC830 /* EventViewController.swift in Sources */,
 			);
