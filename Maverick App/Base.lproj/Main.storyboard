@@ -141,7 +141,7 @@
         <!--Home Screen-->
         <scene sceneID="Cp9-L4-8ag">
             <objects>
-                <viewController id="f8T-4F-RNv" userLabel="Home Screen" sceneMemberID="viewController">
+                <viewController id="f8T-4F-RNv" userLabel="Home Screen" customClass="EventViewController" customModule="Maverick_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Yj7-Ub-nXK"/>
                         <viewControllerLayoutGuide type="bottom" id="8Ge-wz-KdG"/>
@@ -584,11 +584,6 @@
                                         <state key="normal" title="send">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4tA-34-Ibb">
-                                        <rect key="frame" x="355" y="355" width="119" height="205"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.80784313725490198" green="0.066666666666666666" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
