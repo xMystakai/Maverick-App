@@ -8,28 +8,34 @@
 
 import UIKit
 
-class EventViewController: UIViewController {
+class EventViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
     }
-    */
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "YES", for: indexPath) as! yesCell
+        cell.theManyDescriptions.text = "i am the cat that eats all the innocent! NOM NOM NOM! YOU will BOW down TO me AND worship ME. MUAHAHhaHahAHahah"
+        
+        return cell
+    }
+
 
 }
+class yesCell: UITableViewCell {
+    @IBOutlet weak var subject: UILabel!
+    @IBOutlet weak var department: UILabel!
+    @IBOutlet weak var theManyDescriptions: UILabel!
+    @IBOutlet weak var timeTIMEtime: UILabel!
+    
+}
+

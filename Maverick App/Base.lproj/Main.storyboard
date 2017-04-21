@@ -158,7 +158,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80784313725490198" green="0.066666666666666666" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="216" id="Wo9-2A-cBS">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="YES" rowHeight="216" id="Wo9-2A-cBS" customClass="yesCell" customModule="Maverick_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="661" height="216"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Wo9-2A-cBS" id="xJl-Ab-8YH">
@@ -206,8 +206,18 @@
                                             </subviews>
                                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="department" destination="6ji-mK-ta1" id="gNr-iq-Quv"/>
+                                            <outlet property="subject" destination="rpq-wC-hjg" id="Arw-jV-kEf"/>
+                                            <outlet property="theManyDescriptions" destination="dgJ-fh-jLD" id="nAX-ST-T1X"/>
+                                            <outlet property="timeTIMEtime" destination="9B8-c8-K41" id="l5F-dw-arw"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="f8T-4F-RNv" id="w1W-Ld-x3z"/>
+                                    <outlet property="delegate" destination="f8T-4F-RNv" id="eBM-bl-JWd"/>
+                                </connections>
                             </tableView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="maverickEmblem" translatesAutoresizingMaskIntoConstraints="NO" id="mJG-rl-F8E">
                                 <rect key="frame" x="515" y="30" width="210" height="130"/>
