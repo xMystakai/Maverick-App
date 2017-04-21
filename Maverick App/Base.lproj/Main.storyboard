@@ -2203,7 +2203,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="NT" width="474" height="319"/>
+        <image name="NT" width="2000" height="1310"/>
         <image name="NewsPhoto38" width="640" height="640"/>
         <image name="NorthWestLogo" width="235" height="45"/>
         <image name="add_image" width="1600" height="1600"/>
