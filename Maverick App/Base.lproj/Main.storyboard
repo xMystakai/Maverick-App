@@ -504,7 +504,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="93" id="tq4-lD-57u">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="commentsID" rowHeight="93" id="tq4-lD-57u" customClass="Comments" customModule="Maverick_App" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="28" width="293" height="93"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tq4-lD-57u" id="1Ul-qY-0yb">
@@ -528,8 +528,16 @@
                                                         </label>
                                                     </subviews>
                                                 </tableViewCellContentView>
+                                                <connections>
+                                                    <outlet property="actualComment" destination="H4b-RX-1nY" id="vZZ-pW-YLU"/>
+                                                    <outlet property="emailsLBL" destination="ID5-b8-juX" id="8pj-zj-bv2"/>
+                                                </connections>
                                             </tableViewCell>
                                         </prototypes>
+                                        <connections>
+                                            <outlet property="dataSource" destination="tNT-lN-wUZ" id="fS9-rI-YBG"/>
+                                            <outlet property="delegate" destination="tNT-lN-wUZ" id="ytG-nS-nJt"/>
+                                        </connections>
                                     </tableView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Comments" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7WS-xn-VF7">
                                         <rect key="frame" x="409" y="314" width="258" height="37"/>
