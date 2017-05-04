@@ -14,6 +14,7 @@ class Event {
     var subject : String
     var info : String
     var image : UIImage?
+    var comments : [Comment]?
     
     
     init(date: Date, subject: String, info: String, image: UIImage) {
@@ -23,4 +24,16 @@ class Event {
         self.image = image
     }
     
+    
+    //SQL Date Format "YYYY,MM,DD,HH,MM,SS"
+}
+
+class Comment  {
+    var name : String
+    var comment : String
+    
+    init(name: String, comment: String) {
+        self.comment = comment
+        self.name = name
+    }
 }

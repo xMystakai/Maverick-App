@@ -24,7 +24,7 @@ class EventViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "YES", for: indexPath) as! yesCell
-        cell.theManyDescriptions.text = "i am the cat that gets blasted by a 12guage semi auto remington baikal 2 3/4 - 3 1/5 inch shotgun then skinned while its still barely breathing and hung out to dry. MUAHAHhaHahAHahah"
+        cell.theManyDescriptions.text = "i am the cat that gets blasted by a 12guage semi auto remington baikal spr 453 mossy oak 2 3/4 - 3 1/5 inch with an extra full choke shotgun then skinned while its still barely breathing and hung out to dry. MUAHAHhaHahAHahah"
         
         return cell
     }

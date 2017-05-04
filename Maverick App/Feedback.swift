@@ -13,10 +13,7 @@ import Foundation
 class Feedback{
     
     enum FeedbackType {
-        case compliment
-        case complaint
-        case suggestion
-        case anonymous
+        case compliment, suggestion, complaint, anonymous
     }
     
     var type : FeedbackType
