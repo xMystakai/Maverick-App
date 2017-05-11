@@ -1,0 +1,6 @@
+framework module Pods_Maverick_AppUITests {
+  umbrella header "Pods-Maverick AppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
